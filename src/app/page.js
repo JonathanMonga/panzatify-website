@@ -1,29 +1,28 @@
-import Cta from "~/components/Section/Common/Cta";
-import Footer from "~/components/Section/Common/Footer";
-import BrandSection from "~/components/Section/Home-1/Brand/Brand";
-import ContentSectionOne from "~/components/Section/Home-1/Content/ContentOne";
-import ContentSectionTwo from "~/components/Section/Home-1/Content/ContentTwo";
-import Faq from "~/components/Section/Home-1/Faq/Faq";
-import FeatureSection from "~/components/Section/Home-1/Feature/Feature";
-import HeroSection from "~/components/Section/Home-1/Hero/Hero";
-import NewsSection from "~/components/Section/Home-1/News/News";
-import TestimonialSection from "~/components/Section/Common/Testimonial/Testimonial";
+import ContentSectionTwo from "~/components/Section/Home-3/Content-2/ContentTwo";
+import ContentSection from "~/components/Section/Home-3/Content/Content";
+import HeroSection from "~/components/Section/Home-3/Hero/Hero";
+import IntegrationSection from "~/components/Section/Common/Integration-2/IntegrationTwo";
+import StateSection from "~/components/Section/Home-3/State/State";
+import ServiceSection from "~/components/Section/Home-3/Service/Service";
+import FAQSection from "~/components/Section/Common/FAQ/FAQSection";
+import Pricing from "~/components/Section/Common/Pricing";
 import HomeHeader from "~/components/Section/Common/Header/HomeHeader";
+import FooterSectionThree from '../components/Section/Common/Footer-3/FooterThree';
 
-export default function Home() {
+
+export default function HomeThreePage() {
   return (
     <>
-      <HomeHeader />
+      <HomeHeader roundedBtn = "true" />
       <HeroSection />
-      <BrandSection />
-      <ContentSectionOne />
+      <ServiceSection />
+      <ContentSection />
       <ContentSectionTwo />
-      <FeatureSection />
-      <Faq />
-      <TestimonialSection />
-      <NewsSection />
-      <Cta />
-      <Footer />
+      <StateSection />
+      <Pricing />
+      <IntegrationSection />
+      <FAQSection />
+      <FooterSectionThree />
     </>
   );
 }
