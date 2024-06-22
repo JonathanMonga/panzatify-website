@@ -5,14 +5,13 @@ const HeroSection = () => {
     <div className="zubuz-hero-section">
       <div className="container">
         <div className="zubuz-hero-content center zubuz-counter-data">
-          <h1>
-            <em>WhatsApp</em> business Accelerator
+          <h1>Engage and sell more with <em>WhatsApp</em>
             <span className="zubuz-title-shape">
               <img src="/images/v3/shape-v3-01.png" alt="" />
             </span>
           </h1>
           <p>
-            Don't miss out on the opportunity to expand your reach and maximize your business potential - start growing on WhatsApp today with our powerful and effective SaaS solution.
+            With the WhatsApp Business API, you can reach your target audience directly on their preferred messaging app, increasing engagement and conversion rates.
           </p>
           <div className="zubuz-extara-mt">
             <div className="zubuz-subscribe-three">

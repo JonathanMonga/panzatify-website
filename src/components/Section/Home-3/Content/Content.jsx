@@ -13,9 +13,9 @@ const ContentSection = () => {
           </div>
           <div className="col-lg-7">
             <div className="zubuz-default-content m-left">
-              <h2>Agility to adapt to market needs</h2>
+              <h2>Why Panzatify?</h2>
               <p>
-                Startups often need to bring their products or services to
+                Companies often need to bring their products or services to
                 market quickly. Our SaaS applications are readily available and
                 reducing development and deployment time.
               </p>
@@ -25,11 +25,9 @@ const ContentSection = () => {
                     <img src="/images/v3/icon11.png" alt="" />
                   </div>
                   <div className="zubuz-iconbox-data data-small">
-                    <span>Fast implementation:</span>
+                    <span>Increased Engagement:</span>
                     <p>
-                      Our SaaS solutions can be implemented quickly, often
-                      within a few clicks, reducing setup time and allowing
-                      startups immediately.
+                    Enhance customer interaction and boost engagement with the WhatsApp Business API platform. Connect with your audience in real-time, provide personalized support, and streamline communication to drive sales and build lasting relationships.
                     </p>
                   </div>
                 </div>
@@ -38,11 +36,11 @@ const ContentSection = () => {
                     <img src="/images/v3/icon10.png" alt="" />
                   </div>
                   <div className="zubuz-iconbox-data data-small">
-                    <span>Accelerated time-to-market:</span>
+                    <span>Higher Conversion Rates:</span>
                     <p>
-                      SaaS tools startups can accelerate their product or
-                      service launch and stay ahead of the competition and reach
-                      customers faster.
+                    With features such as automated messages, chatbots, and analytics, 
+                    you can easily track and optimize your interactions to drive more 
+                    sales and build stronger relationships with your audience.
                     </p>
                   </div>
                 </div>

@@ -8,7 +8,7 @@ import FAQSection from "~/components/Section/Common/FAQ/FAQSection";
 import Pricing from "~/components/Section/Common/Pricing";
 import HomeHeader from "~/components/Section/Common/Header/HomeHeader";
 import FooterSectionThree from '../components/Section/Common/Footer-3/FooterThree';
-import BrandSection from "~/components/Section/Home-2/Brand/Brand";
+import BrandSection from "~/components/Section/Home-1/Brand/Brand";
 
 
 export default function HomeThreePage() {
@@ -16,13 +16,12 @@ export default function HomeThreePage() {
     <>
       <HomeHeader roundedBtn = "true" />
       <HeroSection />
+      <BrandSection />
       <ServiceSection />
       <ContentSection />
       <ContentSectionTwo />
       <StateSection />
       <Pricing />
-      <BrandSection />
-      <IntegrationSection />
       <FAQSection />
       <FooterSectionThree />
     </>

@@ -31,12 +31,10 @@ const HeroSection = () => {
         style={{ backgroundImage: "url(/images/v1/hero-shape1.png)" }}
       >
         <div className="container">
-          <div className="zubuz-hero-content center position-relative">
-            <h1>Manage your money better than ever</h1>
+          <div className="zubuz-hero-content center position-relative zubuz-counter-data">
+            <h1><em>WhatsApp</em> business Accelerator</h1>
             <p>
-              Our finance app is designed to help individuals &amp; businesses
-              manage their financial activities and transactions. It serves
-              various purposes related to personal and business finance.
+              Don't miss out on the opportunity to expand your reach and maximize your business potential - start growing on WhatsApp today with our powerful and effective SaaS solution.
             </p>
             <div className="zubuz-hero-btn-wrap center">
               <Link className="zubuz-default-btn" href="contact-us">

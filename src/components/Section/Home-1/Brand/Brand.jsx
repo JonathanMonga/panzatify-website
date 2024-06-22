@@ -15,22 +15,22 @@ const BrandSection = () => {
           <div className="col-lg-7">
             <Marquee speed="30" className="zubuz-brand-slider">
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_1.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_2.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_3.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_4.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_5.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_6.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
             </Marquee>
             <Marquee
@@ -40,22 +40,22 @@ const BrandSection = () => {
               style={{marginTop:"25px"}}
             >
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_1.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_2.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_3.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_4.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_5.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
               <div className="zubuz-brand-item">
-                <img src="/images/v1/b_6.png" alt="" />
+                <img src="/images/v1/b_7.png" alt="" />
               </div>
             </Marquee>
           </div>

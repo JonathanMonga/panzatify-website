@@ -1,20 +1,20 @@
 [
   {
-    "title": "SaaS Ready to Earn Money",
+    "title": "WhatsApp Chat",
     "icon": "/images/v3/icon2.png",
-    "description": "Designed for entrepreneurs eager to tap into booming demand for WhatsApp marketing.",
+    "description": "The integrated WhatsApp chat feature in WhatsJet mirrors the native WhatsApp interface.",
     "link": "single-service"
   },
   {
-    "title": "WhatsApp marketing Cloud API",
+    "title": "Campaigns",
     "icon": "/images/v3/icon1.png",
-    "description": "It seamlessly integrates with the Official WhatsApp Cloud API.",
+    "description": "Create instant or scheduled campaigns for all contacts or specific groups.",
     "link": "single-service"
   },
   {
-    "title": "Integrated WhatsApp Chat",
+    "title": "Bot Replies / Chat Bot",
     "icon": "/images/v3/icon3.png",
-    "description": "The integrated WhatsApp Chat feature mirrors the native WhatsApp interface.",
+    "description": "Automate responses 24/7 with intelligent bot replies through Panzatify.",
     "link": "single-service"
   },
   {

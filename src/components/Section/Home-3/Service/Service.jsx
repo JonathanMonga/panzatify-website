@@ -20,7 +20,7 @@ const ServiceSection = () => {
         <div className="zubuz-section-title zubuz-two-column-title">
           <div className="row">
             <div className="col-lg-7">
-              <h2>Wide range of SaaS solutions</h2>
+              <h2>Wide range of powerful features</h2>
             </div>
             <div className="col-lg-5 d-flex align-items-center">
               <div className="zubuz-title-btn">

@@ -35,7 +35,7 @@ const FooterSectionThree = () => {
             <div className="col-xl-4 col-lg-12">
               <div className="zubuz-footer-textarea light">
                 <Link href="/">
-                  <img src="/images/logo/logo-white.svg" alt="" />
+                  <img src="/images/v1/b_7.png" alt="" />
                 </Link>
                 <p>
                   We're your innovation partner, delivering cutting-edge
