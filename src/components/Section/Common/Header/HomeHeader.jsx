@@ -154,39 +154,14 @@ const HomeHeader = ({ logoSrc, roundedBtn }) => {
                 </div>
               </div>
               <ul className="site-menu-main" onClick={menuMainClickHandler}>
-                <li className="nav-item nav-item-has-children">
-                  <Link href="" className="nav-link-item drop-trigger">
-                    Demo{" "}
-                    <i>
-                      <FaAngleDown />
-                    </i>
-                  </Link>
-                  <ul className="sub-menu" id="submenu-1">
-                    <li className="sub-menu--item">
-                      <Link href="/">
-                        <span className="menu-item-text">Finance App</span>
-                      </Link>
-                    </li>
-                    <li className="sub-menu--item">
-                      <Link href="/home-2">
-                        <span className="menu-item-text">CRM Platform</span>
-                      </Link>
-                    </li>
-                    <li className="sub-menu--item">
-                      <Link href="/home-3">
-                        <span className="menu-item-text">SaaS Startups</span>
-                      </Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="nav-item">
-                  <Link href="/about-us" className="nav-link-item">
-                    About Us
+              <li className="nav-item">
+                  <Link href="/pricing" className="nav-link-item">
+                    Pricing
                   </Link>
                 </li>
                 <li className="nav-item nav-item-has-children">
                   <Link href="" className="nav-link-item drop-trigger">
-                    Pages{" "}
+                  Features{" "}
                     <i>
                       <FaAngleDown />
                     </i>
@@ -362,7 +337,183 @@ const HomeHeader = ({ logoSrc, roundedBtn }) => {
                 </li>
                 <li className="nav-item nav-item-has-children">
                   <Link href="" className="nav-link-item drop-trigger">
-                    Blog{" "}
+                    Solutions{" "}
+                    <i>
+                      <FaAngleDown />
+                    </i>
+                  </Link>
+                  <ul className="sub-menu" id="submenu-2">
+                    <li className="sub-menu--item">
+                      <Link href="/about-us">
+                        <span className="menu-item-text">About Us</span>
+                      </Link>
+                    </li>
+                    <li className="sub-menu--item">
+                      <Link href="pricing">
+                        <span className="menu-item-text">Pricing</span>
+                      </Link>
+                    </li>
+                    <li className="sub-menu--item nav-item-has-children">
+                      <Link href="" data-menu-get="h3" className="drop-trigger">
+                        blog{" "}
+                        <i>
+                          <FaAngleDown />
+                        </i>
+                      </Link>
+                      <ul className="sub-menu shape-none" id="submenu-3">
+                        <li className="sub-menu--item">
+                          <Link href="/blog">
+                            <span className="menu-item-text">Our Blog</span>
+                          </Link>
+                        </li>
+                        <li className="sub-menu--item">
+                          <Link href="/blog-column-one">
+                            <span className="menu-item-text">
+                              blog column one
+                            </span>
+                          </Link>
+                        </li>
+                        <li className="sub-menu--item">
+                          <Link href="/blog-column-two">
+                            <span className="menu-item-text">
+                              blog column two
+                            </span>
+                          </Link>
+                        </li>
+                        <li className="sub-menu--item">
+                          <Link href="/single-blog">
+                            <span className="menu-item-text">blog details</span>
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <Link href="" data-menu-get="h3" class="drop-trigger">
+                        Service
+                        <i>
+                          <FaAngleDown />
+                        </i>
+                      </Link>
+                      <ul class="sub-menu shape-none" id="submenu-4">
+                        <li class="sub-menu--item">
+                          <Link href="/service">
+                            <span class="menu-item-text">service</span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/single-service">
+                            <span class="menu-item-text">service details</span>
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <Link href="" data-menu-get="h3" class="drop-trigger">
+                        Team
+                        <i>
+                          <FaAngleDown />
+                        </i>
+                      </Link>
+                      <ul class="sub-menu shape-none" id="submenu-5">
+                        <li class="sub-menu--item">
+                          <Link href="/team">
+                            <span class="menu-item-text">team</span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/single-team">
+                            <span class="menu-item-text">team details</span>
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <Link href="" data-menu-get="h3" class="drop-trigger">
+                        Career
+                        <i>
+                          <FaAngleDown />
+                        </i>
+                      </Link>
+                      <ul class="sub-menu shape-none" id="submenu-6">
+                        <li class="sub-menu--item">
+                          <Link href="/career">
+                            <span class="menu-item-text">Career</span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/single-career">
+                            <span class="menu-item-text">Career details</span>
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <Link href="" data-menu-get="h3" class="drop-trigger">
+                        Portfolio
+                        <i>
+                          <FaAngleDown />
+                        </i>
+                      </Link>
+                      <ul class="sub-menu shape-none" id="submenu-7">
+                        <li class="sub-menu--item">
+                          <Link href="/portfolio-grid">
+                            <span class="menu-item-text">portfolio gird</span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/portfolio-classic">
+                            <span class="menu-item-text">
+                              portfolio classic
+                            </span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/single-portfolio">
+                            <span class="menu-item-text">Single Portfolio</span>
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="sub-menu--item nav-item-has-children">
+                      <Link href="" data-menu-get="h3" class="drop-trigger">
+                        Utility
+                        <i>
+                          <FaAngleDown />
+                        </i>
+                      </Link>
+                      <ul class="sub-menu shape-none" id="submenu-8">
+                        <li class="sub-menu--item">
+                          <Link href="/faq">
+                            <span class="menu-item-text">faq</span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/errors-404">
+                            <span class="menu-item-text">Error 404</span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/integrations">
+                            <span class="menu-item-text">integrations</span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/testimonials">
+                            <span class="menu-item-text">testimonials</span>
+                          </Link>
+                        </li>
+                        <li class="sub-menu--item">
+                          <Link href="/coming-soon">
+                            <span class="menu-item-text">Coming Soon</span>
+                          </Link>
+                        </li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li className="nav-item nav-item-has-children">
+                  <Link href="" className="nav-link-item drop-trigger"> 
+                    Affiliate/Partner{" "}
                     <i>
                       <FaAngleDown />
                     </i>
@@ -389,11 +540,6 @@ const HomeHeader = ({ logoSrc, roundedBtn }) => {
                       </Link>
                     </li>
                   </ul>
-                </li>
-                <li className="nav-item">
-                  <Link href="/contact-us" className="nav-link-item">
-                    Contact Us
-                  </Link>
                 </li>
               </ul>
             </nav>

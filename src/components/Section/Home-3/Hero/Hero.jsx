@@ -4,17 +4,15 @@ const HeroSection = () => {
   return (
     <div className="zubuz-hero-section">
       <div className="container">
-        <div className="zubuz-hero-content center">
+        <div className="zubuz-hero-content center zubuz-counter-data">
           <h1>
-            Launch your startup's success with SaaS
+            <em>WhatsApp</em> business Accelerator
             <span className="zubuz-title-shape">
               <img src="/images/v3/shape-v3-01.png" alt="" />
             </span>
           </h1>
           <p>
-            Our SaaS for startup businesses offers a cost-effective, scalable
-            and user-friendly approach to access and use the software tools they
-            need and provides powerful technology solutions.
+            Don't miss out on the opportunity to expand your reach and maximize your business potential - start growing on WhatsApp today with our powerful and effective SaaS solution.
           </p>
           <div className="zubuz-extara-mt">
             <div className="zubuz-subscribe-three">

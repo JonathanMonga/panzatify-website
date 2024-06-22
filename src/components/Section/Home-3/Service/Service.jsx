@@ -25,7 +25,7 @@ const ServiceSection = () => {
             <div className="col-lg-5 d-flex align-items-center">
               <div className="zubuz-title-btn">
                 <Link className="zubuz-default-btn pill" href="service">
-                  <span>View all services</span>
+                  <span>View all features</span>
                 </Link>
               </div>
             </div>

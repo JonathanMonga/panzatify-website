@@ -1,38 +1,38 @@
 [
   {
-    "title": "Customer support",
-    "icon": "/images/v3/icon1.png",
-    "description": "Clients engagement platform that offers tools for ticketing.",
-    "link": "single-service"
-  },
-  {
-    "title": "Project management",
+    "title": "SaaS Ready to Earn Money",
     "icon": "/images/v3/icon2.png",
-    "description": "A project and task management tool that helps plan, organize.",
+    "description": "Designed for entrepreneurs eager to tap into booming demand for WhatsApp marketing.",
     "link": "single-service"
   },
   {
-    "title": "Email marketing",
+    "title": "WhatsApp marketing Cloud API",
+    "icon": "/images/v3/icon1.png",
+    "description": "It seamlessly integrates with the Official WhatsApp Cloud API.",
+    "link": "single-service"
+  },
+  {
+    "title": "Integrated WhatsApp Chat",
     "icon": "/images/v3/icon3.png",
-    "description": "A widely used email marketing platform with some features.",
+    "description": "The integrated WhatsApp Chat feature mirrors the native WhatsApp interface.",
     "link": "single-service"
   },
   {
-    "title": "Human resources",
-    "icon": "/images/v3/icon4.png",
-    "description": "An all-in-one HR, payroll, and benefits platform designed.",
-    "link": "single-service"
-  },
-  {
-    "title": "Accounting and finance",
-    "icon": "/images/v3/icon5.png",
-    "description": "Accounting software that helps with invoicing financial report.",
-    "link": "single-service"
-  },
-  {
-    "title": "Cyber Security",
+    "title": "WhatsApp Templates",
     "icon": "/images/v3/icon6.png",
-    "description": "Security platform that provide protection from cyber threat.",
+    "description": "Predefined Message Formats for WhatsApp! With our customizable templates feature.",
+    "link": "single-service"
+  },
+  {
+    "title": "Advanced Bot ReplyAdvanced Bot Reply",
+    "icon": "/images/v3/icon5.png",
+    "description": "Try now and take your chat bot interactions to the next level. We have a solution for you!",
+    "link": "single-service"
+  },
+  {
+    "title": "Subscription Payments using Mobile Money",
+    "icon": "/images/v3/icon4.png",
+    "description": "Receive subscription payments from your users using Mobile Money.",
     "link": "single-service"
   },
   {
